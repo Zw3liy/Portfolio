@@ -1,0 +1,54 @@
+/* Minimal, clean aesthetic */
+:root{
+  --bg:#0b0f14;
+  --card:#121821;
+  --muted:#a8b3c5;
+  --text:#e7ecf3;
+  --accent:#62d2a2;
+  --ring: rgba(98,210,162,.35);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,Segoe UI,Roboto,Inter,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{width:min(1100px,92%);margin-inline:auto}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:18px}
+.brand{display:flex;align-items:center;gap:14px}
+.avatar{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#1f2937,#0e7490);font-weight:700}
+.title{margin:0;font-size:1.6rem}
+.subtitle{margin:.15rem 0 0;color:var(--muted)}
+
+.top-actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{padding:8px 12px;border:1px solid #243041;border-radius:999px}
+.btn.primary{background:var(--accent);color:#002313;border-color:transparent}
+.btn:focus{outline:3px solid var(--ring)}
+
+.card{background:var(--card);border:1px solid #1f2b3b;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.card h2{margin-top:0}
+
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 14px;padding:0;list-style:none}
+.meta li{display:flex;gap:8px}
+.meta li span:first-child{color:var(--muted);min-width:90px}
+
+.timeline{display:grid;gap:18px}
+.timeline .item{padding:14px;border:1px solid #1e2837;border-radius:12px}
+.timeline .item h3{margin:0 0 6px}
+.timeline .item .when{color:var(--muted);font-size:.95rem;margin-bottom:8px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.project{border:1px solid #1e2837;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.project .cover{aspect-ratio:16/9;background:#0f1622;display:grid;place-items:center}
+.project .body{padding:12px}
+.project h3{margin:0 0 6px}
+.project p{margin:0 0 10px;color:var(--muted)}
+.project a.btn{align-self:flex-start;margin:10px 12px}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips .chip{padding:8px 10px;border:1px solid #273243;border-radius:999px;background:#0f1622}
+.bullets{margin:0;padding-left:18px}
+
+.site-footer{margin-top:40px;border-top:1px solid #1d2736;color:var(--muted)}
+.footer-inner{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:18px 0}
+@media (max-width:700px){.footer-inner{flex-direction:column;align-items:flex-start}}

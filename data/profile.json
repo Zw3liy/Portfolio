@@ -1,0 +1,162 @@
+{
+  "name": "Zwelithini Goodwill Tshabalala",
+  "title": "IT Operations \u2022 Field Team Engineer \u2022 Security Systems",
+  "objective": "To utilize my technical skills and provide a professional service to customers by applying my knowledge and working in a challenging and motivating working environment.",
+  "location": "Tembisa, Johannesburg",
+  "email": "goodwill00765@gmail.com",
+  "phone": "0738714556",
+  "links": {
+    "linkedin": "",
+    "github": ""
+  },
+  "experience": [
+    {
+      "company": "Ijeka Wireless",
+      "role": "Field Team Engineer",
+      "period": "Apr 2024 \u2014 Present",
+      "highlights": [
+        "Troubleshoot, diagnose and repair network equipment and systems on-site.",
+        "Perform routine maintenance checks to ensure efficient operation.",
+        "Test and calibrate using UISP & WiFiman; verify performance vs. specs.",
+        "Provide customer support, demos, and resolve concerns.",
+        "Maintain service reports, inspection logs, inventory records.",
+        "Train customers on safe and effective operation; create guides.",
+        "Ensure safety compliance in hazardous environments and during travel.",
+        "Coordinate travel and logistics; communicate with team members."
+      ]
+    },
+    {
+      "company": "Dotnext (Discovery Ltd)",
+      "role": "Security Systems Engineer",
+      "period": "2023 \u2014 Feb 2024",
+      "highlights": [
+        "Manage privileged accounts, passwords, keys, secrets, and sessions.",
+        "Discover, onboard, rotate credentials; eliminate embedded secrets.",
+        "Monitor privileged activity for compliance and forensics.",
+        "Apply credential analytics for compliance and benchmarking.",
+        "Control secrets in DevOps, CI/CD in an auditable environment.",
+        "Support workforce password management for employees."
+      ]
+    },
+    {
+      "company": "Cell C (YES Program)",
+      "role": "Reporting & Network Controller",
+      "period": "2019 \u2014 2021",
+      "highlights": [
+        "Implemented automation opportunities for ticketing and reporting.",
+        "24/7 alarm monitoring, escalation and record-keeping.",
+        "Troubleshoot and maintain data communication network services."
+      ]
+    },
+    {
+      "company": "CapaCiTi",
+      "role": "Learnership",
+      "period": "2018",
+      "highlights": [
+        "Java OOP training; analyze specs; design, test, debug; document software."
+      ]
+    },
+    {
+      "company": "Department of Health",
+      "role": "Learnership \u2014 Systems Support",
+      "period": "2017 \u2014 2018",
+      "highlights": [
+        "Replaced paper-based orthopaedic records with an electronic system.",
+        "Gathered/refined requirements; documentation; maintained and scaled POC.",
+        "Collaborated with web designers to align visual design intent."
+      ]
+    },
+    {
+      "company": "Dis-Chem",
+      "role": "Merchandiser",
+      "period": "2016",
+      "highlights": [
+        "Customer service; pricing and display; inventory and shelf maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "NOC Web App (2018)",
+      "summary": "Web-based integration automation tool with tabular views and a map to locate systems nationally.",
+      "link": "",
+      "image": ""
+    },
+    {
+      "name": "Seven Hats \u2014 Marketing Site",
+      "summary": "Public-facing site for a skills development program; responsive, Bootstrap-based; ongoing maintenance.",
+      "link": "",
+      "image": ""
+    }
+  ],
+  "skills": [
+    "Troubleshooting (HW/SW)",
+    "Windows / Linux / macOS support",
+    "Software installation & configuration",
+    "Basic networking (TCP/IP, DNS, DHCP)",
+    "Remote support & documentation",
+    "Customer service & communication",
+    "BeyondTrust Password Safe",
+    "Security awareness",
+    "CI/CD & DevOps secrets handling"
+  ],
+  "certifications": [
+    "Java certificate of completion",
+    "BeyondTrust Password Safe \u2014 Console & PAM Specialist"
+  ],
+  "education": [
+    {
+      "institution": "Richfield Graduate Institution",
+      "credential": "National Diploma, IT Systems Development",
+      "year": "2014"
+    },
+    {
+      "institution": "Richfield Graduate Institution",
+      "credential": "Higher Certificate, Information Technology",
+      "year": "2012"
+    },
+    {
+      "institution": "Zitikeni Secondary School",
+      "credential": "Grade 12 (Matric)",
+      "year": "2011"
+    }
+  ],
+  "references": [
+    {
+      "name": "Mbali Mvelase",
+      "title": "Administrator, Ikeja Wireless",
+      "phone": "0738837259",
+      "email": "mbali.m@ikeja.co.za"
+    },
+    {
+      "name": "Nick Coetzee",
+      "title": "Senior Information Security Systems Engineer, Dotnext",
+      "phone": "0825742966",
+      "email": "niekc@dotnext.co.za"
+    },
+    {
+      "name": "Atisang Nko",
+      "title": "Information Security Analyst and Associate, Discovery Ltd",
+      "phone": "0833354556",
+      "email": "atin@discovery.co.za"
+    },
+    {
+      "name": "Arvin Somar",
+      "title": "Fault & Services Management Manager, Cell C",
+      "phone": "0841744525",
+      "email": "ASomar@cellc.co.za"
+    },
+    {
+      "name": "Nizaam Japie",
+      "title": "Fault & Services Management Manager, Cell C",
+      "phone": "0847777189",
+      "email": "njapie@cellc.co.za"
+    },
+    {
+      "name": "Bongiwe Setuse",
+      "title": "Business Development and Retention, Seven Hats",
+      "phone": "0832001867",
+      "email": "BongiweS@sevenhats.co.za"
+    }
+  ]
+}
