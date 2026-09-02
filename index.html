@@ -1,183 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zwelithini Tshabalala | IT Professional</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .section-title {
-            border-bottom: 2px solid #3b82f6;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #1e3a8a;
-        }
-        .card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Zwelithini Tshabalala is an IT systems and security professional working across network engineering, infrastructure, privileged access, automation and application delivery.">
+  <meta name="theme-color" content="#101815">
+  <title>Zwelithini Tshabalala | IT Systems & Security Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <a class="identity" href="#top" aria-label="Zwelithini Tshabalala home">
+      <span class="identity__mark">ZT</span><span>Zwelithini Tshabalala</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#profile">Profile</a><a href="#experience">Experience</a><a href="#capabilities">Capabilities</a><a href="#practice">In practice</a><a href="#work">Selected work</a><a href="#credentials">Credentials</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
 
-    <!-- Header Section -->
-    <header class="bg-white shadow-md">
-        <div class="container mx-auto px-6 py-8">
-            <div class="flex flex-col md:flex-row items-center justify-between">
-                <div class="text-center md:text-left mb-6 md:mb-0">
-                    <h1 class="text-4xl font-bold text-blue-800">Zwelithini Goodwill Tshabalala</h1>
-                    <p class="text-xl text-gray-600 mt-2">IT Systems Developer & Security Engineer</p>
-                </div>
-                <div class="flex space-x-6 text-blue-600">
-                    <a href="https://github.com/Zw3liy" target="_blank" class="hover:text-blue-800 transition-colors"><i class="fab fa-github fa-2x"></i></a>
-                    <a href="https://linkedin.com/in/zwelithini-tshabalala" target="_blank" class="hover:text-blue-800 transition-colors"><i class="fab fa-linkedin fa-2x"></i></a>
-                </div>
-            </div>
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="hero__copy">
+        <p class="kicker"><span></span> Johannesburg, South Africa</p>
+        <h1>Technology that works.<br><em>Systems that last.</em></h1>
+        <p class="hero__intro">I’m Zwelithini Tshabalala—an IT systems and security professional working across networks, infrastructure, privileged access, technical operations and software delivery.</p>
+        <div class="hero__actions"><a class="button button--accent" href="#work">View selected work <span>↓</span></a><a class="quiet-link" href="#experience">Explore my experience</a></div>
+      </div>
+      <aside class="hero__portrait">
+        <img src="assets/images/datacentre-portrait.jpg" alt="Portrait of Zwelithini Tshabalala">
+        <div class="availability"><i></i><span><strong>Open to meaningful opportunities</strong><small>Infrastructure · Security · Systems</small></span></div>
+      </aside>
+      <div class="hero__index"><span>01</span><p>IT SYSTEMS<br>NETWORK ENGINEERING<br>SECURITY OPERATIONS</p></div>
+    </section>
+
+    <section class="proof-strip" aria-label="Professional disciplines">
+      <p>Operating across the full IT lifecycle</p>
+      <div><span>NETWORKS</span><span>INFRASTRUCTURE</span><span>CYBERSECURITY</span><span>SYSTEMS SUPPORT</span><span>SOFTWARE DELIVERY</span></div>
+    </section>
+
+    <section id="profile" class="section profile">
+      <div class="section-label"><span>02</span><p>Professional profile</p></div>
+      <div class="profile__statement">
+        <h2>More than development.<br><em>End-to-end IT capability.</em></h2>
+        <div class="profile__body"><p>For more than five years, I have worked where technology meets operations: maintaining networks, resolving critical faults, protecting privileged access, supporting users, documenting systems and developing tools that make teams more effective.</p><p>My experience spans field environments, network operations centres, enterprise security and application delivery. That breadth helps me see the whole system—not only the code.</p></div>
+      </div>
+      <dl class="profile__facts"><div><dt>5+</dt><dd>Years across IT operations and engineering</dd></div><div><dt>05</dt><dd>Professional technology environments</dd></div><div><dt>360°</dt><dd>Infrastructure-to-application perspective</dd></div></dl>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="section-label section-label--light"><span>03</span><p>Experience</p></div>
+      <div class="experience__heading"><h2>Built in the field.<br>Proven in operations.</h2><p>Hands-on responsibility across networks, security, systems and service delivery.</p></div>
+      <div class="timeline">
+        <article><time>2025 — Present</time><div><h3>Field Network Engineer</h3><p>In2IT Technologies</p></div><ul><li>Network infrastructure and computing environment maintenance</li><li>Routing, switching, troubleshooting and performance monitoring</li><li>Disaster recovery operations and backup support</li></ul></article>
+        <article><time>2024 — 2025</time><div><h3>Field Team Engineer</h3><p>Ikeja Wireless</p></div><ul><li>Wireless systems troubleshooting and performance testing</li><li>Customer training, technical support and safety compliance</li></ul></article>
+        <article><time>2023 — 2024</time><div><h3>Security Systems Engineer</h3><p>Dotnext · Discovery Ltd</p></div><ul><li>Privileged credentials and secrets management</li><li>Network-session monitoring and DevOps access control</li></ul></article>
+        <article><time>2023 — Present</time><div><h3>Information Systems Engineer</h3><p>Sevenhats Technologies</p></div><ul><li>Public web systems, responsive interfaces and custom modules</li><li>Hardware support, system installation and technical delivery</li></ul></article>
+        <article><time>2019 — 2021</time><div><h3>Reporting & Network Controller</h3><p>Cell C · YES Programme</p></div><ul><li>Network alarms, coverage and data-service monitoring</li><li>Ticket automation, fault escalation and NOC tooling</li></ul></article>
+        <article><time>2017 — 2018</time><div><h3>System Support</h3><p>Department of Health</p></div><ul><li>Electronic orthopaedic records system and documentation</li><li>Technical collaboration and system support</li></ul></article>
+      </div>
+    </section>
+
+    <section id="capabilities" class="section capabilities">
+      <div class="section-label"><span>04</span><p>Capabilities</p></div>
+      <div class="capabilities__grid">
+        <div><p class="overline">A connected practice</p><h2>One professional.<br>Six technical disciplines.</h2><p class="capabilities__intro">I bring operational awareness into every technical decision, from a field fault and secure credential to a production application.</p></div>
+        <div class="capability-list">
+          <article><span>01</span><div><h3>Network engineering</h3><p>Routing, switching, wireless systems, UISP, Wifiman, performance monitoring and fault isolation.</p></div></article>
+          <article><span>02</span><div><h3>Infrastructure & systems</h3><p>Windows, Linux, macOS, hardware, software, configuration, backups and disaster-recovery support.</p></div></article>
+          <article><span>03</span><div><h3>Security operations</h3><p>BeyondTrust Password Safe, privileged access management, secrets, session metadata and DevOps controls.</p></div></article>
+          <article><span>04</span><div><h3>Technical support</h3><p>Remote support, troubleshooting, customer enablement, service reporting and technical documentation.</p></div></article>
+          <article><span>05</span><div><h3>Software delivery</h3><p>Business systems, Java, Python, web technologies, databases, APIs, Docker and CI/CD workflows.</p></div></article>
+          <article><span>06</span><div><h3>Service improvement</h3><p>Automation, fault escalation, operational visibility and practical tooling for working teams.</p></div></article>
         </div>
-    </header>
+      </div>
+    </section>
 
-    <!-- Main Content -->
-    <main class="container mx-auto px-6 py-12">
 
-        <!-- Objective Section -->
-        <section id="objective" class="mb-12">
-            <h2 class="section-title">Objective</h2>
-            <p class="text-lg leading-relaxed">
-                With over five years in the technology industry, I aim to leverage my technical skills as a competent systems developer. I am passionate about providing professional service and applying my knowledge in a challenging and motivating environment to contribute to customer success and organizational growth.
-            </p>
-        </section>
+    <section id="practice" class="section practice">
+      <div class="section-label"><span>05</span><p>IT in practice</p></div>
+      <div class="practice__heading"><div><p class="overline">Beyond the desk</p><h2>Hands on with the<br><em>systems that matter.</em></h2></div><p>Real environments, real equipment and the practical discipline behind reliable technology operations.</p></div>
+      <div class="practice__grid">
+        <figure class="practice__lead"><img src="assets/images/server-maintenance.jpg" alt="Zwelithini Tshabalala carrying out server maintenance in a data centre"><figcaption><span>01</span><p><strong>Infrastructure maintenance</strong>Working directly with production server equipment.</p></figcaption></figure>
+        <figure><img src="assets/images/network-rack.jpg" alt="Enterprise network and server rack"><figcaption><span>02</span><p><strong>Systems environment</strong>Enterprise network and compute infrastructure.</p></figcaption></figure>
+        <figure><img src="assets/images/fibre-infrastructure.jpg" alt="Fibre-connected network equipment in a rack"><figcaption><span>03</span><p><strong>Network engineering</strong>Fibre connectivity and switching infrastructure.</p></figcaption></figure>
+        <figure><img src="assets/images/software-workstation.jpg" alt="Software development workstation with code and terminal"><figcaption><span>04</span><p><strong>Software delivery</strong>From physical systems to working applications.</p></figcaption></figure>
+      </div>
+    </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="mb-12">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="space-y-8">
-                <!-- Ijeka Wireless -->
-                <div class="card bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold text-blue-700">Field Team Engineer</h3>
-                    <p class="text-md text-gray-600">Ijeka Wireless | April 2024 - Current</p>
-                    <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                        <li>Perform maintenance, troubleshooting, and calibration on wireless network equipment.</li>
-                        <li>Deliver exceptional customer support and provide training on system usage.</li>
-                        <li>Maintain detailed documentation, manage logistics, and ensure safety compliance.</li>
-                    </ul>
-                </div>
-                <!-- Dotnext -->
-                <div class="card bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold text-blue-700">Security Systems Engineer</h3>
-                    <p class="text-md text-gray-600">Dotnext (Discovery Ltd) | 2023 - Feb 2024</p>
-                    <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                        <li>Managed and secured privileged access credentials to critical systems.</li>
-                        <li>Monitored network activity for security threats and implemented DevOps security controls.</li>
-                        <li>Ensured strict compliance with industry standards and company security policies.</li>
-                    </ul>
-                </div>
-                <!-- Cell C -->
-                <div class="card bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold text-blue-700">Reporting & Network Controller</h3>
-                    <p class="text-md text-gray-600">Cell C (Yes Program) | 2019 - 2021</p>
-                    <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                        <li>Automated ticketing processes, significantly improving response and resolution times.</li>
-                        <li>Monitored network alarms, troubleshot issues, and maintained data communication services.</li>
-                        <li>Recognized as 'Fault Management Intern of the Year' in 2019.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <section id="work" class="section work">
+      <div class="section-label section-label--light"><span>06</span><p>Selected work</p></div>
+      <div class="work__heading"><h2>Systems built around<br>real operational needs.</h2><p>Selected platforms spanning service management, commerce, wellbeing and workplace operations.</p></div>
+      <div class="project-grid">
+        <article class="project project--featured"><div class="project__visual image-slot"><span>PROJECT IMAGE 01</span><small>Flexispace interface screenshot</small></div><div class="project__content"><p>WORKPLACE OPERATIONS · 2026</p><h3>Flexispace</h3><p>A complete workplace booking platform combining a corporate website, secure employee portal, live resource availability and role-based administration.</p><ul><li>Angular</li><li>Django</li><li>PostgreSQL</li><li>Docker</li></ul><a href="https://github.com/Zw3liy/Flexyspace">View repository <span>↗</span></a></div></article>
+        <article class="project"><div class="project__visual image-slot"><span>PROJECT IMAGE 02</span><small>Service Desk interface screenshot</small></div><div class="project__content"><p>IT SERVICE MANAGEMENT · 2026</p><h3>Enterprise Service Desk</h3><p>A ticketing and support platform designed around accountable service delivery, operational visibility and structured issue resolution.</p><a href="https://github.com/Zw3liy/Enterprice-Service-Desk">View repository <span>↗</span></a></div></article>
+        <article class="project"><div class="project__visual image-slot"><span>PROJECT IMAGE 03</span><small>Mukango storefront screenshot</small></div><div class="project__content"><p>SECURE COMMERCE · 2026</p><h3>Mukango Wa Africa</h3><p>A production-focused African commerce storefront with hardened checkout boundaries, durable order storage and payment reconciliation.</p><a href="https://github.com/Zw3liy/Mukango_wa_Africa">View repository <span>↗</span></a></div></article>
+        <article class="project"><div class="project__visual image-slot"><span>PROJECT IMAGE 04</span><small>Distribution platform screenshot</small></div><div class="project__content"><p>B2B & B2C COMMERCE · 2026</p><h3>SA Distribution</h3><p>An enterprise distribution platform supporting digital product access and commercial workflows.</p><a href="https://github.com/Zw3liy/SA-Distribution">View repository <span>↗</span></a></div></article>
+        <article class="project"><div class="project__visual image-slot"><span>PROJECT IMAGE 05</span><small>Hopeful Seasons screenshot</small></div><div class="project__content"><p>WELLNESS PLATFORM · 2026</p><h3>Hopeful Seasons</h3><p>A welcoming digital experience created for a wellness organisation, with accessible presentation and clear client journeys.</p><a href="https://github.com/Zw3liy/hopeful-seasons-wellness.netlify.app">View repository <span>↗</span></a></div></article>
+        <article class="project"><div class="project__visual image-slot"><span>PROJECT IMAGE 06</span><small>Home lab architecture image</small></div><div class="project__content"><p>INFRASTRUCTURE LAB</p><h3>Active Directory Home Lab</h3><p>A practical environment for Windows domain services, identity administration, policy configuration and infrastructure learning.</p><a href="https://github.com/Zw3liy/Active-directory-Home-Lab">View repository <span>↗</span></a></div></article>
+      </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="mb-12">
-            <h2 class="section-title">Key Projects</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="card bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold text-blue-700">NOC Automation System</h3>
-                    <p class="mt-2 text-gray-700">Developed a web-based automation system for the Network Operations Center at Cell C. The system featured server queries, data mapping, and location tracking, leading to the successful launch of a new web application for the NOC team.</p>
-                </div>
-                <div class="card bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold text-blue-700">Freelance Web Development</h3>
-                    <p class="mt-2 text-gray-700">At Seven Hats, I built a marketing website and developed several responsive web applications using HTML5 and Bootstrap. I also handled hardware repairs and provided general IT support for the client.</p>
-                </div>
-            </div>
-        </section>
+    <section id="credentials" class="section credentials">
+      <div class="section-label"><span>07</span><p>Education & credentials</p></div>
+      <div class="credentials__grid">
+        <div><p class="overline">Education</p><article><time>2014</time><h3>National Diploma</h3><p>IT Systems Development · Richfield Graduate Institute of Technology</p></article><article><time>2012</time><h3>Higher Certificate</h3><p>Information Technology · Richfield Graduate Institute of Technology</p></article></div>
+        <div><p class="overline">Professional certification</p><ul><li><span>01</span>BeyondTrust Password Safe</li><li><span>02</span>Privileged Access Management Specialist</li><li><span>03</span>Java Lounge Certificate of Completion</li></ul></div>
+        <aside class="certificate-slot image-slot"><span>CERTIFICATE IMAGE</span><small>Reserved for your selected credential</small></aside>
+      </div>
+      <div class="recognition"><span>2019</span><div><p>Recognition</p><h3>Cell C Fault Management Intern of the Year</h3></div><p>Recognised for contribution to fault-management operations and the launch of an internal NOC web application.</p></div>
+    </section>
 
-        <!-- Skills & Education Section -->
-        <div class="grid md:grid-cols-2 gap-12 mb-12">
-            <!-- Skills -->
-            <section id="skills">
-                <h2 class="section-title">Core Skills</h2>
-                <div class="flex flex-wrap gap-3">
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Hardware/Software Troubleshooting</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Windows, Linux, macOS Support</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Network Configuration</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Customer Support</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Security Best Practices</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Remote Support Tools</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Java OOP</span>
-                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">HTML5 & Bootstrap</span>
-                </div>
-            </section>
+    <section id="contact" class="contact">
+      <p class="kicker"><span></span> Start a conversation</p>
+      <h2>Let’s solve something<br><em>that matters.</em></h2>
+      <p>For roles, collaborations or technical projects across IT systems, networking, security and software delivery.</p>
+      <div><a class="button button--accent" href="mailto:goodwill00765@gmail.com">Send an email <span>↗</span></a><a class="quiet-link quiet-link--light" href="https://github.com/Zw3liy">GitHub profile ↗</a></div>
+    </section>
+  </main>
 
-            <!-- Education & Certifications -->
-            <section id="education">
-                <h2 class="section-title">Education & Certifications</h2>
-                <div class="space-y-4">
-                    <div>
-                        <h3 class="font-semibold">National Diploma in IT Systems Development</h3>
-                        <p class="text-gray-600">Richfield Graduate Institution, 2014</p>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold">Certified BeyondTrust PAM Specialist</h3>
-                        <p class="text-gray-600">Password Safe Console & Privileged Access Management</p>
-                    </div>
-                     <div>
-                        <h3 class="font-semibold">Java Lounge Certificate</h3>
-                        <p class="text-gray-600">Certificate of Completion</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!-- Contact Section -->
-        <section id="contact" class="text-center">
-            <h2 class="section-title inline-block">Contact Me</h2>
-            <p class="text-lg mt-4">Feel free to reach out for opportunities or just to connect.</p>
-            <div class="mt-6 flex justify-center items-center space-x-6">
-                <a href="mailto:ztshabalala@sevenhats.co.za" class="flex items-center space-x-2 text-blue-600 hover:underline">
-                    <i class="fas fa-envelope"></i>
-                    <span>ztshabalala@sevenhats.co.za</span>
-                </a>
-                <span class="text-gray-400">|</span>
-                <div class="flex items-center space-x-2">
-                    <i class="fas fa-phone"></i>
-                    <span>0738714556 / 0826802115</span>
-                </div>
-                 <span class="text-gray-400">|</span>
-                <div class="flex items-center space-x-2">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Tembisa, Johannesburg</span>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-white mt-12 py-6">
-        <div class="container mx-auto text-center text-gray-500">
-            <p>&copy; 2024 Zwelithini Goodwill Tshabalala. All Rights Reserved.</p>
-        </div>
-    </footer>
-
+  <footer><div class="identity"><span class="identity__mark">ZT</span><span>Zwelithini Tshabalala</span></div><p>IT Systems · Network Engineering · Cybersecurity · Software Delivery</p><p>Johannesburg, South Africa · <span id="year"></span></p></footer>
+  <script src="assets/js/portfolio.js"></script>
 </body>
 </html>
